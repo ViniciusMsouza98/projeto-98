@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "port": "5432",
+    "host": "localhost",
+    "username": "vinicius",
+    "password": "alpha",
+    "database": "rentx",
+    "entities": ["./src/entities/User.ts"],
+    "migrations": ["./src/database/migrations/1679603339175-Create.ts"],
+    "cli": {
+        "migrationsDir":"./src/database/migrations"
+        }
+    
+}
